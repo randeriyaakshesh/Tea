@@ -1,0 +1,129 @@
+*{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+.navigation {
+    display: flex;
+    
+}
+
+.navigation, li {
+    display: inline-flex; 
+    float: right;
+    margin: 10px;
+}
+
+.logo {
+    float: left;
+    height: 60px;
+    padding-left: 10px;
+}
+
+.banner img {
+    height: 800px;
+    width: 1200px;
+    
+}
+
+.goal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+  }
+
+  .images img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+   
+  }
+
+  .images {
+    width: 1000px;
+    display: flex;
+    margin-left: 325px;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+  }
+
+  .one{
+    display: block;
+  }
+
+  .one h3{
+    margin-top: 10px;
+  }
+
+  .background-image{
+    height: 500px;
+    
+  }
+
+  .heading{
+    position: absolute;
+    color:#fff;
+    top: 250%;
+    margin-left: 45%;
+    opacity: 10;
+    padding: 10px;
+  }
+
+  .downtown{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    color: aliceblue;
+    margin-left: 445px;
+    margin-top: -50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .east-bayside{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    color: aliceblue;
+    margin-left: 820px;
+    margin-top: -50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .oakdale{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    color: aliceblue;
+    margin-left: 1200px;
+    margin-top: -50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  p {
+    padding: 10px;
+    column-gap: 5px;  
+  }
+
+  .footer{
+    height: 200px;
+    margin: 330px;
+  }
+
+  .treadmark{
+    margin-left: -1300px;
+    text-align: left;
+  }
